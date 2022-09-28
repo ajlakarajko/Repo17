@@ -1,0 +1,119 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#wrapper {
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
+
+#left {
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    background: black;
+    height: 100%;
+}
+
+#right {
+    position: absolute;
+    width: 60%;
+    left: 40%;
+    border: 1px solid black;
+    background-image: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin: 50px 0;
+}
+
+form {
+    padding: 25px;
+    text-align: start;
+    color: white;
+}
+
+.text-input {
+    width: 90%;
+    display: block;
+    margin: 10px 0;
+    height: 20px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+}
+
+.primary-btn {
+    width: 91%;
+    text-align: center;
+    height: 30px;
+    background: rgb(15, 130, 238);
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+
+#links a {
+    display: block;
+    color: rgb(15, 130, 238);
+    margin: 15px 0;
+    text-decoration: none;
+}
+
+.secondary-btn {
+    position: absolute;
+    left: 30px;
+    width: 80%;
+    text-align: center;
+    height: 30px;
+    background: rgb(173, 171, 171);
+    margin-top: 20px;
+    border: none;
+    font-size: 1rem;
+}
+
+.secondary-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-footer {
+    margin-top: 180px;
+    color: rgb(173, 171, 171);
+}
+
+#main-footer a {
+    color: rgb(173, 171, 171);
+}
+
+.hr-bar {
+    position: absolute;
+    left: 30px;
+    width: 80%;
+}
+
+.bar {
+    color: rgb(173, 171, 171);
+}
+
+#showcase {
+    position: relative;
+    width: 70%;
+    text-align: start;
+}
+
+.showcase-text {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+}
